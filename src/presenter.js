@@ -8,5 +8,5 @@ const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  div.innerHTML = "<p> Fecha: " + ingresarFecha(fecha.value) + "<hr> Hora de ingreso: " + ingresarHora(hora.value) +  "<hr> Hora de salida: " + ingresarHora(horaSalida.value) +" </p>";
+  div.innerHTML = "<span> Fecha: " + ingresarFecha(fecha.value) + "<hr> Hora de ingreso: " + ingresarHora(hora.value) +  "<hr> Hora de salida: " + ingresarHora(horaSalida.value) +" </p>";
 });
