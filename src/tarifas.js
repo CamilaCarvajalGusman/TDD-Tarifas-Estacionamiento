@@ -1,4 +1,7 @@
 function ingresarFecha(fecha){
     return new Date(fecha);
 }
-export default ingresarFecha;
+function ingresarHora(hora){
+    return hora;
+}
+export  {ingresarFecha, ingresarHora};

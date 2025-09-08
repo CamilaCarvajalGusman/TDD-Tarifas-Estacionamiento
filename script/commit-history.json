@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8bf379aba900aa24988a4ddac14743fbf961a4a1",
     "author": "Camila",
     "commit": {
       "date": "2025-09-08T19:24:35.000Z",
       "message": "feat: Ingresar y mostrar la fecha",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/8bf379aba900aa24988a4ddac14743fbf961a4a1"
     },
     "stats": {
       "total": 54031,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-08T19:34:13.000Z",
+      "message": "feat. Ingresar y mostrar la hora de ingreso",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 13,
+      "deletions": 4,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
