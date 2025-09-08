@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "09a5d5f2b4d9da8ac0670c3599d585cd8f7fbeb0",
     "author": "Israel Antezana Rojas",
     "commit": {
       "date": "2025-08-28T21:14:29.000Z",
       "message": "Doc: Explicacion de las reglas para mostrar el score",
-      "url": "https://github.com/israelantezana/TDDTennis-20252/commit/HEAD"
+      "url": "https://github.com/israelantezana/TDDTennis-20252/commit/09a5d5f2b4d9da8ac0670c3599d585cd8f7fbeb0"
     },
     "stats": {
       "total": 40,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-08T19:24:35.000Z",
+      "message": "feat: Ingresar y mostrar la fecha",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 54031,
+      "additions": 37245,
+      "deletions": 16786,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -8,3 +8,5 @@ report.json
 ./.husky/_
 tdd_log.json
 .husky/.commit-state
+package-lock.json
+package.json

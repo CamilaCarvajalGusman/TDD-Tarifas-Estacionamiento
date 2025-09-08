@@ -1,15 +1,10 @@
-import sumar from "./sumador";
+import ingresarFecha from "./tarifas";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const fecha = document.querySelector("#fecha");
+const form = document.querySelector("#tarifas");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
-
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+    div.innerHTML = "<p>" + ingresarFecha(fecha.value) + "</p>";
 });
