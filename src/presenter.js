@@ -1,4 +1,4 @@
-import {ingresarFecha, ingresarHora} from "./tarifas";
+import { ingresarFecha, ingresarHora } from "./tarifas";
 
 const fecha = document.querySelector("#fecha");
 const hora = document.querySelector("#horaIngreso");
@@ -7,5 +7,5 @@ const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-    div.innerHTML = "<p>" + ingresarFecha(fecha.value) + ingresarHora(hora.value)+ " </p>";
+  div.innerHTML = "<p> Fecha: " + ingresarFecha(fecha.value) + "<hr> Hora de ingreso: " + ingresarHora(hora.value) + " </p>";
 });

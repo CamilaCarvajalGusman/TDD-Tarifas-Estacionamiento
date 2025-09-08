@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9727e1804deb29c299d23a1aa39c08d34901413",
     "author": "Camila",
     "commit": {
       "date": "2025-09-08T19:34:13.000Z",
       "message": "feat. Ingresar y mostrar la hora de ingreso",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/e9727e1804deb29c299d23a1aa39c08d34901413"
     },
     "stats": {
       "total": 17,
       "additions": 13,
       "deletions": 4,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-08T19:35:41.000Z",
+      "message": "perf: agregado de labels fecha y hora de ingreso en presenter.js",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2025-09-08"
     },
     "coverage": 100,
