@@ -8,4 +8,7 @@ describe("Calcular tarifas de estacionamiento", () => {
   it("debería ingresar y mostrar la hora de ingreso", () => {
     expect(ingresarHora("15:30")).toEqual("15:30");
   });
+  it("debería ingresar y mostrar la hora de salida", () => {
+    expect(ingresarHora("19:30")).toEqual("19:30");
+  });
 });
