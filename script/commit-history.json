@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3197f7f1c0f96eea85a2b5f80320015a471aae05",
     "author": "Camila",
     "commit": {
       "date": "2025-09-08T19:41:40.000Z",
       "message": "perf: cambio de <p> a <span> en div.innerHTML respuestaa del cálculo",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/3197f7f1c0f96eea85a2b5f80320015a471aae05"
     },
     "stats": {
       "total": 2,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-09T14:06:51.000Z",
+      "message": "feat: Ingresar y mostrar si el ticket fue perdido",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 24,
+      "deletions": 4,
+      "date": "2025-09-09"
+    },
+    "coverage": 83.33,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
