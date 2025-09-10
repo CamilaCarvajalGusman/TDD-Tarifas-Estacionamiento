@@ -23,4 +23,7 @@ describe("Calcular tarifas de estacionamiento", () => {
   it("debería calcular la tarifa nocturna", () => {
     expect(calcularTarifa("2025-09-10","22:00","2025-09-10","23:00")).toEqual(6);
   });
+  it("debería calcular la tarifa nocturna + tarifa base por hora y por fracción", () => {
+    expect(calcularTarifa("2025-09-10","19:00","2025-09-10","00:00")).toEqual(42);
+  });
 });

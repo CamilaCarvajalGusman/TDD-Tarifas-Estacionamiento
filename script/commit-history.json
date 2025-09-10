@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60538fde9860ffded1dc7af2b37b216cb89b6a80",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T18:40:11.000Z",
       "message": "feat: calcular la tarifa nocturna y mostrar",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/60538fde9860ffded1dc7af2b37b216cb89b6a80"
     },
     "stats": {
       "total": 24,
@@ -357,6 +357,25 @@
     },
     "coverage": 95.24,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T18:53:29.000Z",
+      "message": "feat: calcular la tarifa nocturna + tarifa base por hora y por fracción y mostrar",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 16,
+      "deletions": 8,
+      "date": "2025-09-10"
+    },
+    "coverage": 96,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
