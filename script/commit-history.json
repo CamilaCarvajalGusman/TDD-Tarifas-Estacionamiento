@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "69785612542f21e70652fefc9c9923a1b5efd42c",
     "author": "Camila",
     "commit": {
       "date": "2025-09-09T14:06:51.000Z",
       "message": "feat: Ingresar y mostrar si el ticket fue perdido",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/69785612542f21e70652fefc9c9923a1b5efd42c"
     },
     "stats": {
       "total": 28,
@@ -243,6 +243,25 @@
     },
     "coverage": 83.33,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T12:05:50.000Z",
+      "message": "feat: agregar fecha de salida",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 11,
+      "deletions": 6,
+      "date": "2025-09-10"
+    },
+    "coverage": 83.33,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
