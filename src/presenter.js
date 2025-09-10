@@ -14,6 +14,7 @@ form.addEventListener("submit", (event) => {
   if(ticket[0].checked){
     ticket_perdido=true;
   }
-  let calcTarifa = calcularTarifa(fecha_entrada.value,horaEntrada.value,fecha_salida.value, horaSalida.value);
-  div.innerHTML = "<span> Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + " - Hora de ingreso: " + ingresarHora(horaEntrada.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ " - Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido)+" <br> Monto a pagar: Bs"+calcTarifa+"</span>";
+  let datosEntrada = "Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + " - Hora de ingreso: " + ingresarHora(horaEntrada.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ " - Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido);
+  let calcTarifa = " <br> Monto a pagar: Bs "+calcularTarifa(fecha_entrada.value,horaEntrada.value,fecha_salida.value, horaSalida.value);
+  div.innerHTML = "<span> "+datosEntrada+calcTarifa+"</span>";
 });

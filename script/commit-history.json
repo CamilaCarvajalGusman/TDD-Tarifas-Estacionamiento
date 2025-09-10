@@ -304,17 +304,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "067acf4e2f9c78f261904bbdba79baccce9a03ce",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T12:40:17.000Z",
       "message": "feat: calcular la tarifa base y mostrar",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/067acf4e2f9c78f261904bbdba79baccce9a03ce"
     },
     "stats": {
       "total": 32,
       "additions": 23,
       "deletions": 9,
+      "date": "2025-09-10"
+    },
+    "coverage": 91.67,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T12:47:00.000Z",
+      "message": "refactor: separación de datosEntrada + cálculo de la tarifa en variables",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
       "date": "2025-09-10"
     },
     "coverage": 91.67,
