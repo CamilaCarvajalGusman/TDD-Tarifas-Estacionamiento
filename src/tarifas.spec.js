@@ -1,5 +1,5 @@
 
-import {ingresarFecha, ingresarHora, perdidaTicket} from "./tarifas";
+import {ingresarFecha, ingresarHora, perdidaTicket, calcularTarifa} from "./tarifas";
 
 describe("Calcular tarifas de estacionamiento", () => {
   it("debería ingresar y mostrar la fecha de ingreso", () => {
@@ -16,5 +16,8 @@ describe("Calcular tarifas de estacionamiento", () => {
   });
   it("debería ingresar y mostrar si el ticket fue perdido", () => {
     expect(perdidaTicket(true)).toEqual("SI");
+  });
+  it("debería calcular la tarifa base", () => {
+    expect(calcularTarifa("2025-09-10","10:30","2025-09-10","11:30")).toEqual(10);
   });
 });

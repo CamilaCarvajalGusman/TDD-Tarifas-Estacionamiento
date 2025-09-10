@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "989142706667bade564ce49172ec09fb1d075d9f",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T12:24:41.000Z",
       "message": "perf: cambio de nombre de variable a uno más descriptivo (hora -> horaEntrada)",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/989142706667bade564ce49172ec09fb1d075d9f"
     },
     "stats": {
       "total": 4,
@@ -300,6 +300,25 @@
     },
     "coverage": 83.33,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T12:40:17.000Z",
+      "message": "feat: calcular la tarifa base y mostrar",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 23,
+      "deletions": 9,
+      "date": "2025-09-10"
+    },
+    "coverage": 91.67,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

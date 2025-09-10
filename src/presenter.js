@@ -1,4 +1,4 @@
-import { ingresarFecha, ingresarHora, perdidaTicket } from "./tarifas";
+import { calcularTarifa, ingresarFecha, ingresarHora, perdidaTicket } from "./tarifas";
 
 const fecha_entrada = document.querySelector("#fecha_entrada");
 const fecha_salida = document.querySelector("#fecha_salida");
@@ -14,5 +14,6 @@ form.addEventListener("submit", (event) => {
   if(ticket[0].checked){
     ticket_perdido=true;
   }
-  div.innerHTML = "<span> Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + " - Hora de ingreso: " + ingresarHora(horaEntrada.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ " - Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido)+" </span>";
+  let calcTarifa = calcularTarifa(fecha_entrada.value,horaEntrada.value,fecha_salida.value, horaSalida.value);
+  div.innerHTML = "<span> Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + " - Hora de ingreso: " + ingresarHora(horaEntrada.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ " - Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido)+" <br> Monto a pagar: Bs"+calcTarifa+"</span>";
 });
