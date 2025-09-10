@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff130471ffa0c762b301e2c345e9ad27053b9a7e",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T12:05:50.000Z",
       "message": "feat: agregar fecha de salida",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/ff130471ffa0c762b301e2c345e9ad27053b9a7e"
     },
     "stats": {
       "total": 17,
       "additions": 11,
       "deletions": 6,
+      "date": "2025-09-10"
+    },
+    "coverage": 83.33,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T12:07:11.000Z",
+      "message": "perf: mostrar en una sola línea fecha y hora de entrada y salida respectivamente",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-09-10"
     },
     "coverage": 83.33,

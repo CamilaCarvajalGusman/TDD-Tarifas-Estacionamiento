@@ -14,5 +14,5 @@ form.addEventListener("submit", (event) => {
   if(ticket[0].checked){
     ticket_perdido=true;
   }
-  div.innerHTML = "<span> Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + "<hr> Hora de ingreso: " + ingresarHora(hora.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ "<hr> Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido)+" </span>";
+  div.innerHTML = "<span> Fecha de entrada: " + ingresarFecha(fecha_entrada.value) + " - Hora de ingreso: " + ingresarHora(hora.value) + "<hr> Fecha de salida: "+ingresarFecha(fecha_salida.value)+ " - Hora de salida: " + ingresarHora(horaSalida.value) +"<br> ¿Ticket perdido?: "+perdidaTicket(ticket_perdido)+" </span>";
 });
