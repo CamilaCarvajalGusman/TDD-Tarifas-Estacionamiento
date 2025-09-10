@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e1181e8e8afaeb4eb01cc0577c4ac85afb8a557f",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T12:07:11.000Z",
       "message": "perf: mostrar en una sola línea fecha y hora de entrada y salida respectivamente",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/e1181e8e8afaeb4eb01cc0577c4ac85afb8a557f"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2025-09-10"
+    },
+    "coverage": 83.33,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T12:24:41.000Z",
+      "message": "perf: cambio de nombre de variable a uno más descriptivo (hora -> horaEntrada)",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2025-09-10"
     },
     "coverage": 83.33,
