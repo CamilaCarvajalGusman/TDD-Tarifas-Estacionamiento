@@ -16,11 +16,22 @@ function perdidaTicket(respuesta) {
 function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida) {
     const entrada = new Date(`${fechaEntrada}T${horaEntrada}`);
     const salida = new Date(`${fechaSalida}T${horaSalida}`);
-    console.log("Entrada: ",entrada);
-    console.log("Salida: ",entrada);
-    console.log("Imprimir: ",((salida - entrada) / (1000 * 60 * 60)))
-    return ((salida - entrada) / (1000 * 60 * 60)) * 10;
-
+    const tarifaDiurna = 10;
+    const tarifaNocturna = 6;
+    let horasDiurnas = 0;
+    let horasNocturnas = 0;
+    let actual = new Date(entrada);
+    while (actual < salida) {
+        const hora = actual.getHours();
+        if (hora >= 6 && hora < 22) {
+            horasDiurnas++;
+        } else {
+            horasNocturnas++;
+        }
+        actual.setHours(actual.getHours() + 1);
+    }
+    const total = Math.ceil(horasDiurnas) * tarifaDiurna + Math.ceil(horasNocturnas) * tarifaNocturna;
+    return total;
 }
 
 export { ingresarFecha, ingresarHora, perdidaTicket, calcularTarifa };

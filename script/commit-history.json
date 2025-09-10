@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d861021b07d69f15a93ed482c851b105c820ac9",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T12:47:00.000Z",
       "message": "refactor: separación de datosEntrada + cálculo de la tarifa en variables",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/5d861021b07d69f15a93ed482c851b105c820ac9"
     },
     "stats": {
       "total": 5,
@@ -338,6 +338,25 @@
     },
     "coverage": 91.67,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-10T18:40:11.000Z",
+      "message": "feat: calcular la tarifa nocturna y mostrar",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 19,
+      "deletions": 5,
+      "date": "2025-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

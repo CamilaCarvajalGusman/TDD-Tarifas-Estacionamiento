@@ -20,4 +20,7 @@ describe("Calcular tarifas de estacionamiento", () => {
   it("debería calcular la tarifa base", () => {
     expect(calcularTarifa("2025-09-10","10:30","2025-09-10","11:30")).toEqual(10);
   });
+  it("debería calcular la tarifa nocturna", () => {
+    expect(calcularTarifa("2025-09-10","22:00","2025-09-10","23:00")).toEqual(6);
+  });
 });
