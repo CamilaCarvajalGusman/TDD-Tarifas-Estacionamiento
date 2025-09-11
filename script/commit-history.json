@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aa8beab491d949b36855abf09c4225d10866dcdb",
     "author": "Camila",
     "commit": {
       "date": "2025-09-11T03:47:06.000Z",
       "message": "feat: validar que la hora de salida no sea anterior a la de entrada. y mostrar error",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/aa8beab491d949b36855abf09c4225d10866dcdb"
     },
     "stats": {
       "total": 11,
@@ -435,5 +435,24 @@
     "test_count": 11,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-11T03:54:46.000Z",
+      "message": "feat: mostrar desglose por día cuando la estadía cruza varios días (por ejemplo, cuánto se cobró en cada día antes y después de aplicar el tope).",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 111,
+      "additions": 99,
+      "deletions": 12,
+      "date": "2025-09-11"
+    },
+    "coverage": 45.9,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
