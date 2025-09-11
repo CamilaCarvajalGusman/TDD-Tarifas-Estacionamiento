@@ -16,8 +16,13 @@ function perdidaTicket(respuesta) {
 function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida, perdioTicket) {
     const entrada = new Date(`${fechaEntrada}T${horaEntrada}`);
     let salida = new Date(`${fechaSalida}T${horaSalida}`);
-    if(perdioTicket){
+    if (perdioTicket) {
         return 80;
+    }
+    if (salida < entrada) {
+        alert("La hora de salida no puede ser anterior a la hora de entrada");
+        return 0;
+
     }
     if (horaSalida === "00:00") {
         salida.setDate(salida.getDate() + 1);
@@ -40,10 +45,10 @@ function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida, perd
 
     const horasDiurnas = Math.ceil(minutosDiurnos / 60);
     const horasNocturnas = Math.ceil(minutosNocturnos / 60);
-    if((horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna)>50){
+    if ((horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna) > 50) {
         return 50;
     }
-    
+
     return horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna;
 }
 
