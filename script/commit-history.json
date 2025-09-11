@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c46720e415860f195bad0710394846c60f1b6028",
     "author": "Camila",
     "commit": {
       "date": "2025-09-11T03:40:31.000Z",
       "message": "feat: calcular la tarifa considerando el tope máximo por día calendario: Bs 50.00 y mostrar",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/c46720e415860f195bad0710394846c60f1b6028"
     },
     "stats": {
       "total": 7,
@@ -395,6 +395,25 @@
     },
     "coverage": 96.3,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-11T03:42:58.000Z",
+      "message": "feat: calcular la tarifa considerando el tope máximo por día calendario: Bs 50.00 y mostrar",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 12,
+      "deletions": 5,
+      "date": "2025-09-11"
+    },
+    "coverage": 96.55,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

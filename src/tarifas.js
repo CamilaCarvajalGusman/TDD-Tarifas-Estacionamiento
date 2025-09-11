@@ -13,9 +13,12 @@ function perdidaTicket(respuesta) {
     }
 }
 
-function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida) {
+function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida, perdioTicket) {
     const entrada = new Date(`${fechaEntrada}T${horaEntrada}`);
     let salida = new Date(`${fechaSalida}T${horaSalida}`);
+    if(perdioTicket){
+        return 80;
+    }
     if (horaSalida === "00:00") {
         salida.setDate(salida.getDate() + 1);
     }
@@ -40,6 +43,7 @@ function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida) {
     if((horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna)>50){
         return 50;
     }
+    
     return horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna;
 }
 
