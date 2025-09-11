@@ -34,8 +34,12 @@ function calcularTarifa(fechaEntrada, horaEntrada, fechaSalida, horaSalida) {
         }
         actual.setMinutes(actual.getMinutes() + minutosRestantes);
     }
+
     const horasDiurnas = Math.ceil(minutosDiurnos / 60);
     const horasNocturnas = Math.ceil(minutosNocturnos / 60);
+    if((horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna)>50){
+        return 50;
+    }
     return horasDiurnas * tarifaDiurna + horasNocturnas * tarifaNocturna;
 }
 

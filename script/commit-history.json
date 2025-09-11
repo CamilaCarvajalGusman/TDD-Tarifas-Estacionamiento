@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6fc6c08df668f409de4234bfba1bc88bf4069b15",
     "author": "Camila",
     "commit": {
       "date": "2025-09-10T18:53:29.000Z",
       "message": "feat: calcular la tarifa nocturna + tarifa base por hora y por fracción y mostrar",
-      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/6fc6c08df668f409de4234bfba1bc88bf4069b15"
     },
     "stats": {
       "total": 24,
@@ -376,6 +376,25 @@
     },
     "coverage": 96,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Camila",
+    "commit": {
+      "date": "2025-09-11T03:40:31.000Z",
+      "message": "feat: calcular la tarifa considerando el tope máximo por día calendario: Bs 50.00 y mostrar",
+      "url": "https://github.com/CamilaCarvajalGusman/TDD-Tarifas-Estacionamiento/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-09-11"
+    },
+    "coverage": 96.3,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

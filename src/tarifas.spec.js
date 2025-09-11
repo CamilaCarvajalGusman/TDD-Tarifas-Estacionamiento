@@ -26,4 +26,7 @@ describe("Calcular tarifas de estacionamiento", () => {
   it("debería calcular la tarifa nocturna + tarifa base por hora y por fracción", () => {
     expect(calcularTarifa("2025-09-10","19:00","2025-09-10","00:00")).toEqual(42);
   });
+  it("debería calcular la tarifa considerando el tope máximo por día calendario: Bs 50.00", () => {
+    expect(calcularTarifa("2025-09-10","17:00","2025-09-10","00:00")).toEqual(50);
+  });
 });
